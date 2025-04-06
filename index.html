@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bouge ton Matos</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/geoloc.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Bouge ton Matos" class="logo" />
+        </div>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#">Annonces</a>
+            <a href="#">FAQ</a>
+            <button class="login-btn">Connexion</button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="overlay">
+                <h1>Partage ton matos, aide ton voisin</h1>
+                <input type="text" id="locationInput" placeholder="Où êtes-vous ?" />
+                <div id="userLocation"></div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="feature">
+                <img src="images/location.png" alt="Chercher du matériel">
+                <p>Besoin de matériel ? Trouve ce qu’il te faut près de chez toi !</p>
+            </div>
+            <div class="feature">
+                <img src="images/louer.png" alt="Proposer du matériel">
+                <p>Tu as du matos ? Propose-le à la communauté et rends service.</p>
+            </div>
+            <div class="feature">
+                <img src="images/sharing.png" alt="Partage">
+                <p>Une plateforme basée sur la confiance et l'entraide locale.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
