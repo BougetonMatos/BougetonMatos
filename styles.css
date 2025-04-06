@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+nav a, .login {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  margin-top: 20vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 2em;
+  border-radius: 10px;
+}
+input[type="text"] {
+  margin-top: 1em;
+  padding: 0.5em;
+  width: 300px;
+}
+.logo {
+  height: 40px;
+}
