@@ -77,3 +77,8 @@ nav a:hover {
     margin-top: 10px;
     font-weight: bold;
 }
+
+main, section, footer {
+    background-color: transparent;
+}
+
